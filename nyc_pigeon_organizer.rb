@@ -94,5 +94,5 @@ def nyc_pigeon_organizer(data)
       data.each do |colors_gender_lives, values|
         values.each do |value, array|
           array.each do |element|
-            
+            if element == name && 
 end
