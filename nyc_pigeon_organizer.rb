@@ -77,5 +77,5 @@ def nyc_pigeon_organizer(data)
   #end 
   #result
   hash = {}
-  
+  data.each do 
 end
