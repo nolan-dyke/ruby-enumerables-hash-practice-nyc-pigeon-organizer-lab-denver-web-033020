@@ -76,4 +76,6 @@ def nyc_pigeon_organizer(data)
     #i += 1 
   #end 
   #result
+  hash = {}
+  
 end
