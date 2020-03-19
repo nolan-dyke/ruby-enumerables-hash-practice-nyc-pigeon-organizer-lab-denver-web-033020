@@ -95,5 +95,6 @@ def nyc_pigeon_organizer(data)
         values.each do |value, array|
           array.each do |element|
             if element == name && hashvalue == color_gender_lives
+              hash[name]
               
 end
