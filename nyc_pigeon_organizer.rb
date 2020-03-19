@@ -85,5 +85,6 @@ def nyc_pigeon_organizer(data)
           hash[name][colors_gender_lives] = []
         else 
           hash[name][colors_gender_lives] = []
-          
+        end 
+      end 
 end
