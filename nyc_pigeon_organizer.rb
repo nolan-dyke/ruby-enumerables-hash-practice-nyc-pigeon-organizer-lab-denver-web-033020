@@ -59,5 +59,21 @@ def nyc_pigeon_organizer(data)
     end 
     i += 1 
   end 
+  i = 0 
+  while i < data[:lives]["Library"].length do 
+    name = data[:lives]["Library"][i] 
+    if result[name]
+      result[name][:lives] << "Library"
+    end 
+    i += 1 
+  end 
+  i = 0 
+  while i < data[:lives]["City Hall"].length do 
+    name = data[:lives]["City Hall"][i] 
+    if result[name]
+      result[name][:lives] << "City Hall"
+    end 
+    i += 1 
+  end 
   result
 end
