@@ -92,5 +92,6 @@ def nyc_pigeon_organizer(data)
   hash.each do |name, values|
     values.each do |hashvalue, array|
       data.each do |colors_gender_lives, values|
-        values.each do |
+        values.each do |value, array|
+          
 end
